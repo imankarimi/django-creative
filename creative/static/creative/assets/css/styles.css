@@ -81,11 +81,11 @@ blockquote {
 
 .errorlist li{color: #ff7e7e;}
 .breadcrumbs_panel .rbc{
-    margin: 80px 18% -5% 32px;
+    margin: 80px 22% -5% 32px;
     text-align: right;
 }
 .breadcrumbs_panel .lbc{
-    margin: 80px 32px -5% 18%;
+    margin: 80px 32px -5% 22%;
     text-align: left;
 }
 
