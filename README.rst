@@ -28,9 +28,9 @@ Installation
 
 .. code:: python
 
-    pip install https://github.com/imankarimi/django-creative.git
+    pip install git+https://github.com/imankarimi/django-creative.git
     # or
-    easy_install https://github.com/imankarimi/django-creative.git
+    easy_install git+https://github.com/imankarimi/django-creative.git
 
 * Add 'creative' application to the INSTALLED_APPS setting of your Django project settings.py file (note it should be before 'django.contrib.admin'):
 
