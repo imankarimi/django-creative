@@ -48,6 +48,8 @@ Installation
 
  In this feature, we considered that each App can have its own icon, so we ask users to use this feature according to the method. Also in apps.py of each program according to the example add the icon field in the corresponding class.
 
+ You can go here to use more [icons](https://django-dashboard-black.appseed.us/ui-icons.html)
+
 .. code:: python
 
     from django.apps import AppConfig
