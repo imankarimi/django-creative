@@ -48,8 +48,6 @@ Installation
 
  In this feature, we considered that each App can have its own icon, so we ask users to use this feature according to the method. Also in apps.py of each program according to the example add the icon field in the corresponding class.
 
-------
-
 .. code:: python
 
     from django.apps import AppConfig
