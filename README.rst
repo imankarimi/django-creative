@@ -43,34 +43,12 @@ Installation
     )
 
 ..
- All programs you add in INSTALLED_APPS should look like this: APP_NAME.apps.APP_NAMEConfig
- In this feature, we considered that each App can have its own icon, so we ask users to use this feature according to the method. Also in apps.py of each program according to the example add the icon field in the corresponding class.
-------
 
-and must have spaces between them to prevent that interpretation::
+ All programs you add in INSTALLED_APPS should look like this: APP_NAME.apps.APP_NAMEConfig.
 
-     > A block quotation will wrap and flow, and can have *inline*
-     ``markup`` just like a regular paragraph.  It will be indented on
-     the left (and possibly the right) margins, and may have a vertical
-     quotation line on the left.
-
-      >> With two spaces and two right angle brackets, a following block
-      quotation will be doubly indented, and will have a second vertical
-      quotation line along the left if quotation lines are generated.
-
-       > >> A third level of quotation is the maximum level possible.
-
-..
-
- All programs you add in INSTALLED_APPS should look like this: APP_NAME.apps.APP_NAMEConfig
  In this feature, we considered that each App can have its own icon, so we ask users to use this feature according to the method. Also in apps.py of each program according to the example add the icon field in the corresponding class.
 
 ------
-
-(The cheat here is that the reStructuredText output includes the right
-angle bracket(s) on the first line in addition to the indentation; this
-is not ideal, but is generally acceptable when used for a quotation, and
-not just indented text.)
 
 * Make sure ``django.template.context_processors.request`` context processor is enabled in settings.py (Django 1.8+ way):
 
