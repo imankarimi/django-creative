@@ -55,7 +55,6 @@ Installation
     class APP_NAMEConfig(AppConfig):
         name = 'APP_NAME'
         icon = 'ICON_CLASS'  # for example: icon = 'tim-icons icon-atom'
-------        
 
 * Make sure ``django.template.context_processors.request`` context processor is enabled in settings.py (Django 1.8+ way):
 
