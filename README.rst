@@ -47,15 +47,17 @@ Installation
  All programs you add in INSTALLED_APPS should look like this: "APP_NAME.apps.APP_NAMEConfig".
 
  In this feature, we considered that each App can have its own icon, so we ask users to use this feature according to the method. Also in apps.py of each program according to the example add the icon field in the corresponding class.
- .. code:: python
-
-    INSTALLED_APPS = (
-        ...
-        'creative',
-        'django.contrib.admin',
-    )
 
 ------
+
+.. code:: python
+
+    from django.apps import AppConfig
+
+    class APP_NAMEConfig(AppConfig):
+        name = 'APP_NAME'
+        icon = 'ICON_CLASS'  # for example: icon = 'tim-icons icon-atom'
+------        
 
 * Make sure ``django.template.context_processors.request`` context processor is enabled in settings.py (Django 1.8+ way):
 
