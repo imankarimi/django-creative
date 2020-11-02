@@ -43,7 +43,6 @@ Installation
     )
 
 ..
- * Notice
  All programs you add in INSTALLED_APPS should look like this: APP_NAME.apps.APP_NAMEConfig
  In this feature, we considered that each App can have its own icon, so we ask users to use this feature according to the method. Also in apps.py of each program according to the example add the icon field in the corresponding class.
 ------
