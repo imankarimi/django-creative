@@ -42,6 +42,12 @@ Installation
         'django.contrib.admin',
     )
 
+..
+
+ somthing something
+
+------
+
 * Make sure ``django.template.context_processors.request`` context processor is enabled in settings.py (Django 1.8+ way):
 
 .. code:: python
