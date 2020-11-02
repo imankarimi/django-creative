@@ -56,9 +56,7 @@ Installation
         name = 'APP_NAME'
         icon = 'ICON_CLASS'  # for example: icon = 'tim-icons icon-atom'
 
-..
-
- You can go here to use more [icons](https://django-dashboard-black.appseed.us/ui-icons.html)
+You can go here to use more [icons](https://django-dashboard-black.appseed.us/ui-icons.html)
 
 * Make sure ``django.template.context_processors.request`` context processor is enabled in settings.py (Django 1.8+ way):
 
