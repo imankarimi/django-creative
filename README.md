@@ -107,7 +107,7 @@ $ python manage.py collectstatic
 
 ### [Django Admin Black](https://github.com/app-generator/django-admin-black)
 
-Start fast your next Django project by using functional django admin dashboards
+Start fast your next Django project by using functional django admin dashboard.
 
 ### [Black Dashboard](https://www.creative-tim.com/product/black-dashboard?AFFILIATE=128200)
 
