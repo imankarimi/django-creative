@@ -73,3 +73,4 @@ $ easy_install git+https://github.com/app-generator/django-admin-black.git
         },
     ]
 ```
+!! Consider this a warning.
