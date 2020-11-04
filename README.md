@@ -42,6 +42,6 @@ $ easy_install git+https://github.com/app-generator/django-admin-black.git
 
 > All programs you add in **INSTALLED_APPS** should look like this: **APP_NAME.apps.APP_NAMEConfig**.
 
-In this feature, we considered that each App can have its own icon, so we ask users to use this feature according to the method. Also in apps.py of each program according to the example add the icon field in the corresponding class.
+> In this feature, we considered that each App can have its own icon, so we ask users to use this feature according to the method. Also in apps.py of each program according to the example add the icon field in the corresponding class.
 
-You can go **[here](https://django-dashboard-black.appseed.us/ui-icons.html)** to use more icons
+> You can go **[here](https://django-dashboard-black.appseed.us/ui-icons.html)** to use more icons
