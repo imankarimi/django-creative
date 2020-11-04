@@ -18,3 +18,15 @@
 ## Screenshots
 
 ![Django Admin Black - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-dashboard-black/master/media/django-dashboard-black-screen.png)
+
+<br>
+
+## Installation
+
+```bash
+$ pip install git+https://github.com/app-generator/django-admin-black.git
+$ # or
+$ easy_install git+https://github.com/app-generator/django-admin-black.git
+```
+
+* Add 'admin_black' application to the INSTALLED_APPS setting of your Django project settings.py file (note it should be before 'django.contrib.admin'):
