@@ -74,7 +74,7 @@ $ easy_install git+https://github.com/app-generator/django-admin-black.git
     ]
 ```
 
-:warning: Warning!!
+:warning: *Warning!!*
 > Before Django 1.8 you should specify context processors different way. Also use ``django.core.context_processors.request`` instead of ``django.template.context_processors.request``.
 
 ```python
