@@ -30,3 +30,11 @@ $ easy_install git+https://github.com/app-generator/django-admin-black.git
 ```
 
 * Add 'admin_black' application to the INSTALLED_APPS setting of your Django project settings.py file (note it should be before 'django.contrib.admin'):
+
+```python
+    INSTALLED_APPS = (
+        ...
+        'admin_black.apps.AdminBlackConfig',
+        'django.contrib.admin',
+    )
+```
