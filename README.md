@@ -100,3 +100,20 @@ $ python manage.py collectstatic
 ```
 
 * Clear your browser cache
+
+<br />
+
+## More Details
+
+### Django Admin Black
+
+Start fast your next Django project by using functional django admin dashboards
+
+### [Black Dashboard](https://www.creative-tim.com/product/black-dashboard?AFFILIATE=128200)
+
+**[Black Dashboard](https://www.creative-tim.com/product/black-dashboard?AFFILIATE=128200)** is a beautiful Bootstrap 4 Admin Dashboard with a huge number of components built to fit together and look amazing. If you are looking for a tool to manage and visualize data about your business, this dashboard is the thing for you. It combines colors that are easy on the eye, spacious cards, beautiful typography, and graphics.
+
+<br />
+
+---
+**Django Admin Black** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
