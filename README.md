@@ -53,3 +53,23 @@ $ easy_install git+https://github.com/app-generator/django-admin-black.git
         name = 'APP_NAME'
         icon = 'ICON_CLASS'  # for example: icon = 'tim-icons icon-atom'
 ```
+
+* Make sure ``django.template.context_processors.request`` context processor is enabled in settings.py (Django 1.8+ way):
+
+```python
+
+    TEMPLATES = [
+        {
+            'BACKEND': 'django.template.backends.django.DjangoTemplates',
+            'DIRS': [],
+            'APP_DIRS': True,
+            'OPTIONS': {
+                'context_processors': [
+                    ...
+                    'django.template.context_processors.request',
+                    ...
+                ],
+            },
+        },
+    ]
+```
