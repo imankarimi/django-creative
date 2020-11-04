@@ -84,3 +84,19 @@ $ easy_install git+https://github.com/app-generator/django-admin-black.git
         'django.core.context_processors.request',
     )
 ```
+
+* Create database tables:
+
+```bash
+$ python manage.py migrate admin_black
+$ # or
+$ python manage.py syncdb
+```
+
+* Collect static if you are in production environment:
+
+```bash
+$ python manage.py collectstatic
+```
+
+* Clear your browser cache
